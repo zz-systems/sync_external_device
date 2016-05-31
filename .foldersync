@@ -1,0 +1,7 @@
+[OneFolder]
+Remote="your device sync folder (relative to mountpoint)"
+Local="your machine sync folder (full path?)"
+
+[AnotherFolder]
+Remote="Videos"
+Local="/home/_user_/Videos"
