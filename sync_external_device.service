@@ -1,0 +1,10 @@
+[Unit]
+Description=
+Requires=__your_device__.mount
+After=__your_device__.mount
+
+[Service]
+ExecStart=__your_script_location__/sync_external_device.sh __any__label__ __your_device_mountpoint__
+
+[Install]
+WantedBy=__your_device__.mount
